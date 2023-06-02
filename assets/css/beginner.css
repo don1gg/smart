@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body {
+    background-color: black;
+    font-family: 'Jost', sans-serif;
+}
+.header {
+    background: url('../img/header.svg') center no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1320px;
+}
+
+.nav {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    font-size: 36px;
+    font-weight: 500;
+    align-items: center;
+    display: flex;
+}
+
+.header-logo img{
+    height: 90px;
+    margin-right: 25px;
+}
+
+.header-title {
+    font-size: 48px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.quiz-container {
+    border-radius: 10px;
+    width: 600px;
+    overflow: hidden;
+}
+
+.quiz-header {
+    padding: 4rem;
+}
+
+h2 {
+    text-align: center;
+    margin: 0;
+    font-size: 18px;
+}
+
+
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+ul li label {
+    cursor: pointer;
+}
+
+button {
+    margin-left: 50px;
+    font-size: 17px;
+    font-weight: 700;
+    background: none;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 15px 30px;
+    cursor: pointer;
+}
+
+button a {
+    text-decoration: none;
+    color: black;
+}
+
+@media(max-width: 768px) {
+    .quiz-header {
+        padding-top: 2rem;
+    }
+}
+@media(max-width: 595px) {
+    .quiz-header {
+        padding: 2rem;
+    }
+}
+@media(max-width: 440px) {
+    .header-title {
+        font-size: 40px;
+    }
+    h2 {
+        text-align: left;
+    }
+    button {
+        margin-left: 25px;
+        padding: 10px 20px;
+    }
+}
+
+@media(max-width: 375px) {
+    .header-title {
+        font-size: 35px;
+    }
+
+    button {
+        font-size: 15px;
+        margin-left: 15px;
+    }
+}
+
+@media(max-width: 320px) {
+    h2 {
+        margin: 0;
+        padding: 0;
+        font-size: 18px;
+    }
+
+    .header-title {
+        font-size: 30px;
+    }
+
+    button {
+        display: flex;
+        margin-bottom: 10px;
+    }
+}

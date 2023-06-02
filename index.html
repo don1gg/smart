@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp" />
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+                <nav class="nav">
+                    <button class="burger-btn" id="burger">
+                        <span></span><span></span><span></span>
+                    </button>
+                    <div class="nav-logo">
+                        SMART English
+                    </div>
+                    <div class="navs">
+                        <div class="nav-links">
+                            <li>
+                                <a href="" class="nav-link">Главная</a>
+                            </li>
+                            <li>
+                                <a href="#advantages" class="nav-link">Преимущества</a>
+                            </li>
+                            <li>
+                                <a href="#contact" class="nav-link">Контакты</a>
+                            </li>
+                        </div>
+                        <div class="nav-social">
+                            <li>
+                                <a href="https://api.whatsapp.com/send/?phone=77754694421&text&type=phone_number&app_absent=0" target="_blank"><img src="./assets/img/whatsapp.png" alt=""></a>
+                            </li>
+                            <li>
+                                <a href="https://www.tiktok.com/@smart_english_tdk" target="_blank"><img src="./assets/img/tiktok.png" alt=""></a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/smart_english_tdk/" target="_blank"><img src="./assets/img/instagramm.png" alt=""></a>
+                            </li>
+                        </div>
+                        <div class="nav-links">
+                            <li style="margin-left: 10px;">
+                                <a href="" class="nav-link sss">Кабинет<span class="material-symbols-sharp">account_circle</span></a>
+                            </li>
+                        </div>
+                    </div>
+                </nav>
+                <div class="header-section">
+                    <div class="header-r">
+                        <div class="header-title">
+                            Школа английского
+                            Smart
+                            <p>Уже 30 000+ наших студентов уверенно заговорили по-английски — освойте язык и вы!</p>
+                        </div>
+                        <div class="header-btn">
+                            <button class="btn" id="open-modal-tell">Заказать звонок</button>
+                            <button class="btn" id="open-modal-test">Пробное тестирование</button>
+                        </div>
+                    </div>
+                    <div class="header-l">
+                        <img src="./assets/img/smart.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="modal" id="my-modal">
+                <div class="modal-box">
+                    <button class="btn btn-a"><a href="beginner.html">Для взрослых</a></button>
+                    <button class="btn btn-a"><a href="elementary.html">Для детей</a></button>
+                    <button class="close-btn" id="close-my-modal-btn">Закрыть</button>
+                </div>
+            </div>
+            <div class="modals" id="my-modals">
+                <div class="modal-boxs">
+                    <form class="modal-form" id="tg">
+                        <label for="">Возраст</label>
+                        <input type="number" name="age" id="age"><br>
+                        <label for="">Номер</label>
+                        <input type="number" name="phone" id="phone"><br>
+                        <label for="">Имя</label>
+                        <input type="text" name="name" id="name"> <br>
+                        <select id="level" name="level">
+                            <option value="Beginner">Beginner</option>
+                            <option value="Elementary">Elementary</option>
+                            <option value="Pre-intermediate">Pre-intermediate</option>
+                            <option value="Intermediate">Intermediate</option>
+                        </select> 
+                        <button class="btn modal-btns" type="submit">Отправить</button>
+                    </form>
+                    <button class="close-btn" id="close-my-modal-btns">Закрыть</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="section-advantages" id="advantages">
+        <div class="container">
+            <div class="advantages-inner">
+                <div class="advantages-title">
+                    Преимущества
+                    <p>
+                        каждый репетитор в Smart - это не только <br>
+                        учитель английского языка, но и психолог, а <br>
+                        это дополнительные плюсы
+                    </p>
+                </div>
+                <div class="advantages-section">
+                    <div class="bl">
+                        <div class="blocks-l">
+                            <div class="block-l">
+                                Уверенность в своих силах
+                                <p>
+                                    Помимо подготовки по английскому <br>
+                                    языку каждый преподаватель делает <br>
+                                    все, чтобы Ваш ребенок поверил в себя <br>
+                                    и свои силы.
+                                </p>
+                            </div>
+                            <img src="./assets/img/num1.png" alt="">
+                        </div> 
+                        <div class="blocks-l">
+                            <div class="block-l">
+                                Любовь к предмету
+                                <p>
+                                    Ваш ребенок изучает английский язык <br>
+                                    не только для школы, но и для себя, <br>
+                                    потому что понимает, зачем она ему, и <br>
+                                    как ее использовать в жизни.
+                                </p>
+                            </div>
+                            <img src="./assets/img/num2.png" alt="">
+                        </div>
+                    </div> 
+                    <div class="bc">
+                        <img src="./assets/img/tell.png" alt="">
+                    </div>
+                    <div class="br">
+                        <div class="blocks-r">
+                            <img src="./assets/img/num3.png" alt="">
+                            <div class="block-r">
+                                Навыки концентрации
+                                <p>
+                                    Поможем вам свободно заговорить на языке. <br>
+                                    Приходите на вводное занятие — определим ваш <br>
+                                    уровень английского и составим индивидуальную <br>
+                                    программу обучения
+                                </p>
+                            </div>
+                        </div>
+                        <div class="blocks-r">
+                            <img src="./assets/img/num4.png" alt="">
+                            <div class="block-r">
+                                Комфортное обучение
+                                <p>
+                                    Преподаватели не ругают за ошибки и умеют <br>
+                                    простым языком объяснять сложные темы
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section-contact" id="contact">
+        <div class="container">
+            <div class="contact-inner">
+                <div class="sp">
+                    <div class="contact-title">
+                        <p>Наши Контакты</p>
+                        <div class="contact-nav">
+                            <li>
+                                <a href="mailto:Info@smart-english.org.kz" class="nav-linkq">Info@smart-english.org.kz</a>
+                            </li>
+                            <li>
+                                <a href="tel:+77754694421" class="nav-linkq">+7 775 469 44 21</a>
+                            </li>
+                            <li>
+                                <a href="https://yandex.kz/maps/-/CCUv7JQh2B" target="_blank" class="nav-linkq">
+                                    Талдыкорган, Жетысуская область, <br> 
+                                    КазахстанТолебаева 72
+                                </a>
+                            </li>
+                        </div>
+                    </div>
+                    <div class="contact-social">
+                        <p>Социальные сети</p>
+                        <div class="social">
+                            <li>
+                                <a href="https://api.whatsapp.com/send/?phone=77754694421&text&type=phone_number&app_absent=0" target="_blank"><img src="./assets/img/whats.png" class="social-img" alt=""></a>
+                            </li>
+                            <li>
+                                <a href="https://www.tiktok.com/@smart_english_tdk" target="_blank"><img src="./assets/img/tiktoks.png" class="social-img" alt=""></a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/smart_english_tdk/" target="_blank"><img src="./assets/img/inst.png" class="social-img" alt=""></a>
+                            </li>
+                        </div>
+                    </div>
+                </div>
+                <div class="span"></div>
+                <div class="logo">Smart</div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./assets/js/index.js" defer></script>
+</body>
+</html>

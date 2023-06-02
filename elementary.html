@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart</title>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/beginner.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+                <nav class="nav">
+                    <div class="header-logo">
+                        <img src="./assets/img/smart.png" alt=""> SMART English
+                    </div>
+                </nav>
+                <div class="header-title">
+                    Тест на выявление уровня английского
+                </div>
+                <div class="quiz-container" id="quiz">
+                    <div class="quiz-header">
+                        <h2 id="question">Question Text</h2>
+                        <h2>Question <span id="question-number"></span>/<span id="total-questions"></span></h2>
+                        <ul>
+                            <li>
+                                <input type="radio" name="answer" id="a" class="answer" >
+                                <label for="a" id="a_text">Answer</label>
+                            </li>
+                            <li>
+                                <input type="radio" name="answer" id="b" class="answer" >
+                                <label for="b" id="b_text">Answer</label>
+                            </li>
+                            <li>
+                                <input type="radio" name="answer" id="c" class="answer" >
+                                <label for="c" id="c_text">Answer</label>
+                            </li>
+                        </ul>
+                    </div>
+                    <button><a href="index.html">Вернуться на главную</a></button>
+                    <button id="submit">Ответить</button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <script src="./assets/js/qscript.js"></script>
+</body>
+</html>
